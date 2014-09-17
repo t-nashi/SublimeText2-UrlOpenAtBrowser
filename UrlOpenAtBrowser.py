@@ -6,7 +6,7 @@ import webbrowser
 import re
 
 #====================================================================
-# アクティブファイル中の対象文字列の含まれている行をリストに収めてコンソールに出力する （super + ctfl + shift + l）
+# アクティブファイル中の対象文字列の含まれている行をリストに収めてコンソール出力・ブラウザオープンする （super + ctfl + shift + O）
 #====================================================================
 class UrlOpenAtBrowserCommand(sublime_plugin.TextCommand):
 	def run(self, edit):
